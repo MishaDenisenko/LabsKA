@@ -14,3 +14,12 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::Div (double a, double b)
+{
+    if (b == 0)
+    {
+        return -1
+    }
+    return a / b;
+}
